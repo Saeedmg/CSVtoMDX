@@ -1,0 +1,24 @@
+see
+see me today
+</>
+sees
+see
+</>
+see off
+see me off today
+</>
+see hyperlink1
+refer to <a href="entry://see">see</a>
+</>
+see hyperlink2
+refer to <a href="entry://see">see</a>
+</>
+see image
+see image <img src="filename"></img>
+</>
+seeing
+seeing def
+</>
+seeing
+seeing def
+</>
