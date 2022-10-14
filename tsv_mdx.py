@@ -65,7 +65,7 @@ class CSVtoMDX:
 					if not line.isspace():
 						f.write(line)
 # test file in the directory
-a = CSVtoMDX("text.tsv")
+a = CSVtoMDX("test2.tsv")
 a.to_mdx()	
 
 
