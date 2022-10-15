@@ -41,8 +41,8 @@ class CSVtoMDX:
 			print("Entries:",len(entries))
 			# empty words you can add more!
 			empty_words = ["\n","","های","ی","ای",".","و","را","به","زیرا","،","از","است","باشد","بود","؛","چون","که","او","شما","تو","من","آن","آنها","این", "همه","در","بر","ها"] # You can add more
-			# Persian lemmatizer & Stemmer, you can add your language or use NLTK's default mode
-                        # This depends your search by reducing your alternates to lemma and stems
+			# Persian lemmatizer & Stemmer, you can add your language of choice or use NLTK's default mode
+                        # This deepens the search by reducing  alternates to lemma and stems
 			lemmatizer =  Lemmatizer()
 			ps = Stemmer()
 			alters = []
