@@ -16,7 +16,7 @@ class CSVtoMDX:
 		print(f"{len(df)} entries") 
 		if self.duplicate:
 			df.drop_duplicates(inplace=True)
-			print(f"{len(df)} entries were removed:")
+			print(f"{len(df)} entries:")
 			self.data = df
 		else:
 			self.data = df
