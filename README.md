@@ -1,4 +1,4 @@
-# CSVtoMDX<br>
+# CSV to MDX source file<br>
 A fast .csv, .tsv to .mdx source file convertor. Persian to English model<br>
 You need Pandas, NLTK, Hazm:<br>
 pip install pandas nltk hazm<br>
