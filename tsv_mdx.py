@@ -87,11 +87,12 @@ class CSVtoMDX:
 				for line in mdx:
 					if not line.isspace():
 						f.write(line)				
-						
+# test file in the directory						
 if __name__ == "__main__":
-	# test file in the directory
-a = CSVtoMDX("test2.tsv")
-a.to_mdx()	
+	a = CSVtoMDX("test2.tsv")
+	a.to_mdx()
+
+	
   					
 
 
